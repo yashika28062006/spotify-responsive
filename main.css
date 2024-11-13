@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://github.com/Sibishalom16/amazon-clone-boilerplate/blob/main/assets/background%20picture.png?raw=true');
+    background-size: cover;
+    color: #030303;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.product {
+    flex: 1 1 200px; /* Adjusts the size */
+    text-align: center;
+    margin: 10px;
+}
+
+.product img {
+    width: 80%; /* Responsive image width */
+    max-width: 100px; /* Maximum width for larger screens */
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #e68a00; /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+    .product {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
+.h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 200;
+    font: bold;
+}
